@@ -1,0 +1,164 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "product": "Quantum Blaze Laptop",
+      "category": "Laptops",
+      "brand": "NexGen Tech",
+      "stock": 50,
+      "price": 1200,
+      "lastOrderDate": "15/10/2023",
+      "supplier": "Tech Solutions Ltd",
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "product": "Spectra Thunder Laptop",
+      "category": "Laptops",
+      "brand": "TechMaster",
+      "stock": 20,
+      "price": 1500,
+      "lastOrderDate": "20/09/2023",
+      "supplier": "Electro Dynamics",
+      "rating": 4.2
+    },
+    {
+      "id": 3,
+      "product": "Thunderstrike Laptop",
+      "category": "Smartphones",
+      "brand": "Quantum Technologies",
+      "stock": 30,
+      "price": 800,
+      "lastOrderDate": "05/10/2023",
+      "supplier": "Global Gadgets",
+      "rating": 4.8
+    },
+    {
+      "id": 4,
+      "product": "Eclipse Nova Phone",
+      "category": "Smartphones",
+      "brand": "TechVision",
+      "stock": 15,
+      "price": 700,
+      "lastOrderDate": "25/09/2023",
+      "supplier": "NexGen Tech",
+      "rating": 4
+    },
+    {
+      "id": 5,
+      "product": "Quantum Blaze Pro Laptop",
+      "category": "Laptops",
+      "brand": "TechMaster",
+      "stock": 35,
+      "price": 1300,
+      "lastOrderDate": "10/10/2023",
+      "supplier": "Electro Dynamics",
+      "rating": 4.6
+    },
+    {
+      "id": 6,
+      "product": "Lunar Horizon Phone",
+      "category": "Smartphones",
+      "brand": "NexGen Tech",
+      "stock": 25,
+      "price": 900,
+      "lastOrderDate": "15/09/2023",
+      "supplier": "Global Gadgets",
+      "rating": 4.3
+    },
+    {
+      "id": 7,
+      "product": "Thunderstrike Pro Laptop",
+      "category": "Laptops",
+      "brand": "TechVision",
+      "stock": 10,
+      "price": 1100,
+      "lastOrderDate": "20/10/2023",
+      "supplier": "Tech Solutions Ltd",
+      "rating": 4.1
+    },
+    {
+      "id": 8,
+      "product": "Nebula Voyager Phone",
+      "category": "Smartphones",
+      "brand": "Quantum Technologies",
+      "stock": 40,
+      "price": 1000,
+      "lastOrderDate": "10/09/2023",
+      "supplier": "Electro Dynamics",
+      "rating": 4.7
+    },
+    {
+      "id": 9,
+      "product": "Quantum Blaze Elite Laptop",
+      "category": "Laptops",
+      "brand": "TechMaster",
+      "stock": 18,
+      "price": 1400,
+      "lastOrderDate": "25/10/2023",
+      "supplier": "Global Gadgets",
+      "rating": 4.4
+    },
+    {
+      "id": 10,
+      "product": "Stellar Galaxy Phone",
+      "category": "Smartphones",
+      "brand": "TechVision",
+      "stock": 22,
+      "price": 950,
+      "lastOrderDate": "30/09/2023",
+      "supplier": "Tech Solutions Ltd",
+      "rating": 4.9
+    },
+    {
+      "product": "da",
+      "category": "Laptops",
+      "brand": "da",
+      "stock": "3",
+      "price": "3",
+      "supplier": "as",
+      "rating": "1",
+      "id": 11
+    },
+    {
+      "product": "asd",
+      "category": "Laptops",
+      "brand": "das",
+      "stock": "24",
+      "price": "23",
+      "supplier": "das",
+      "rating": "1",
+      "id": 12
+    },
+    {
+      "product": "das",
+      "category": "Laptops",
+      "brand": "das",
+      "stock": "3",
+      "price": "3",
+      "supplier": "da",
+      "rating": "1",
+      "id": 13
+    },
+    {
+      "product": "das",
+      "category": "SmartPhones",
+      "brand": "as",
+      "stock": "3",
+      "price": "3",
+      "supplier": "a",
+      "rating": "1",
+      "id": 14
+    },
+    {
+      "product": "da",
+      "category": "Laptops",
+      "brand": "a",
+      "stock": "33",
+      "price": "3",
+      "supplier": "a",
+      "rating": "0.5",
+      "id": 15
+    }
+  ]
+}
