@@ -6,7 +6,7 @@
   </div>
   <div class="table-view bg-white p-3 table-responsive-lg">
     <h5 class="table-head mb-1">Inventory Overview</h5>
-    <ProductTable @data={{@model}} />
+    <ProductTable @products={{this.products}} @dataPerPage={{this.dataPerPage}} />
   </div>
   {{#if this.showModal}}
     <Modal>

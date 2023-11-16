@@ -6,6 +6,13 @@ import { tracked } from '@glimmer/tracking';
 export default class InventoryController extends Controller {
   @service router;
   @tracked showModal = false;
+  @tracked data;
+  @tracked products;
+  @tracked dataPerPage;
+
+  constructor() {
+    super(...arguments);
+  }
   @action
   navigateToDashboard() {
     this.router.transitionTo('index');
@@ -19,7 +26,7 @@ export default class InventoryController extends Controller {
     this.showModal = false;
   }
   @action
-  addProduct(product) {
+  async addProduct(product) {
     const url = 'http://127.0.0.1:3000/products';
     const data = product;
 
@@ -30,7 +37,7 @@ export default class InventoryController extends Controller {
       },
       body: JSON.stringify(data),
     };
-    fetch(url, fetchOptions)
+    const newProduct = await fetch(url, fetchOptions)
       .then((response) => {
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
@@ -39,12 +46,12 @@ export default class InventoryController extends Controller {
       })
       .then((data) => {
         console.log('POST request successful:', data);
+        return data;
       })
       .catch((error) => {
         console.error('Error during POST request:', error);
       });
-    let model = this.get('model');
-    model.products = [...model.products, data];
+    this.products = [...this.products, newProduct];
     this.showModal = false;
   }
 }

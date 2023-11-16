@@ -16,24 +16,21 @@ export default class ProductTableComponent extends Component {
   ];
   @tracked currentPage = 1;
   get totalPages() {
-    return Math.ceil(
-      this.args.data.products.length / this.args.data.dataPerPage,
-    );
+    return Math.ceil(this.args.products.length / this.args.dataPerPage);
   }
   get loopCount() {
     return Array.from({ length: this.totalPages }, (_, index) => index + 1);
   }
   get firstIndex() {
-    return this.args.data.dataPerPage * (this.currentPage - 1) + 1;
+    return this.args.dataPerPage * (this.currentPage - 1) + 1;
   }
   get lastIndex() {
-    return this.args.data.dataPerPage * this.currentPage <
-      this.args.data.products.length
-      ? this.args.data.dataPerPage * this.currentPage
-      : this.args.data.products.length;
+    return this.args.dataPerPage * this.currentPage < this.args.products.length
+      ? this.args.dataPerPage * this.currentPage
+      : this.args.products.length;
   }
   get currentData() {
-    return this.args.data.products.slice(this.firstIndex - 1, this.lastIndex);
+    return this.args.products.slice(this.firstIndex - 1, this.lastIndex);
   }
   @action
   changeCurrentPage(page) {

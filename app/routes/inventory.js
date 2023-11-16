@@ -30,4 +30,9 @@ export default class InventoryRoute extends Route {
       console.log(e);
     }
   }
+  setupController(controller, model) {
+    super.setupController(controller, model);
+    controller.set('products', model.products);
+    controller.set('dataPerPage', model.dataPerPage);
+  }
 }
