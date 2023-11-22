@@ -88,6 +88,7 @@ export default class InventoryController extends Controller {
     products[index] = editedProduct;
     this.products = [...products];
     this.showModal = false;
+    this.currentProduct = null;
   }
   @action
   async addProduct(product) {

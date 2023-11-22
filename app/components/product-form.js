@@ -6,7 +6,7 @@ export default class ProductFormComponent extends Component {
   @tracked productId = null;
   @tracked product;
   @tracked category = null;
-  @tracked lastOrderDate = null;
+  @tracked lastOrderDate = "20/10/2023";
   @tracked brand;
   @tracked stock;
   @tracked price;
