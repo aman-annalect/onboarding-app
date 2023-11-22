@@ -4,30 +4,35 @@ body {
   background-color: #0c1523;
   color: #e63946;
 }
-a:hover{
+
+a:hover {
   text-decoration: none;
 }
-.cards{
+
+.cards {
   background-color: white;
   margin: 20px;
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;
 }
+
 .page-link {
   border: none !important;
   color: black !important;
 }
 
-.card-heading{
+.card-heading {
   color: #0c1523;
   font-weight: 700;
   margin-bottom: 5px;
 }
-.card-sub{
+
+.card-sub {
   color: gray;
   font-size: 13px;
 }
+
 .from-modal {
   position: fixed;
   left: 0;
@@ -49,51 +54,62 @@ a:hover{
   margin-bottom: 10px;
 }
 
-.table-view{
+.table-view {
   border-radius: 5px;
   padding-top: 10px;
 }
 
-.secondary-btn{
+.secondary-btn {
   background-color: #bababa;
   color: #0c1523;
   font-size: 14px;
   font-weight: 700;
 }
-.primary-btn{
+
+.primary-btn {
   background-color: #e63946;
   color: white;
   font-size: 14px;
   font-weight: 700;
 }
-th,td{
+
+th,
+td {
   color: #0c1523 !important;
 }
-.table-head{
+
+.table-head {
   color: white;
   background-color: gray;
   padding: 10px;
   border-radius: 2px;
   font-weight: 700;
 }
-.page-data{
+
+.page-data {
   font-size: 14px;
   color: #0c1523;
   margin-left: 10px;
 }
 
-.form-head{
+.form-head {
   font-weight: 700;
 }
 
-label{
+label {
   color: #0c1523;
   font-size: 14px;
   font-weight: 500;
 }
-.form-control{
+
+.form-control {
   font-size: 14px;
 }
-.current-rating{
+
+.current-rating {
   color: #0c1523;
+}
+
+.pointer-cursor{
+  cursor: pointer;
 }

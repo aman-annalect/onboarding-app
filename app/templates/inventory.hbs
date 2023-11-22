@@ -6,11 +6,11 @@
   </div>
   <div class="table-view bg-white p-3 table-responsive-lg">
     <h5 class="table-head mb-1">Inventory Overview</h5>
-    <ProductTable @products={{this.products}} @dataPerPage={{this.dataPerPage}} />
+    <ProductTable @setCurrentProduct={{this.setCurrentProduct}} @products={{this.products}} @dataPerPage={{this.dataPerPage}} />
   </div>
   {{#if this.showModal}}
     <Modal>
-      <ProductForm @addProduct={{this.addProduct}} @closeModal={{this.closeModal}}/>
+      <ProductForm @product={{this.currentProduct}} @addProduct={{this.addProduct}} @closeModal={{this.closeModal}}/>
     </Modal>
   {{/if}}
 </main>

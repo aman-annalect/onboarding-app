@@ -8,7 +8,7 @@
   </thead>
   <tbody>
     {{#each this.currentData as |product|}}
-      <tr>
+      <tr class="pointer-cursor" {{on "click"  (fn @setCurrentProduct product) }}>
         <th class="text-center" scope="row">{{product.id}}</th>
         <td class="text-center">{{product.product}}</td>
         <td class="text-center">{{product.category}}</td>

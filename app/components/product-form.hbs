@@ -8,8 +8,8 @@
       <label for="inputState">Category</label>
       <select id="inputState" class="form-control" value={{this.category}} {{on "change" (fn this.handleInput "category")}}>
         <option hidden></option>
-        <option value="Laptops">Laptops</option>
-        <option value="SmartPhones">SmartPhones</option>
+        <option selected={{if (eq this.category 'Laptops') true false}} value="Laptops">Laptops</option>
+        <option selected={{if (eq this.category 'Smartphones') true false}} value="Smartphones">Smart Phones</option>
       </select>
     </div>
   <div class="form-group">
@@ -38,7 +38,7 @@
     <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3" value={{this.rating}} {{on "input" (fn this.handleInput "rating")}}>
   </div>
   <div class="d-flex justify-content-center mt-4">
-    <button type="submit" class="btn primary-btn mr-3">ADD</button>
-    <button type="submit" {{on "click" @closeModal }} class="btn secondary-btn ml-4">CANCEL</button>
+    <button type="submit" class="btn primary-btn mr-3">{{if this.editProduct 'Edit Product' 'Add'}}</button>
+    <button {{on "click" @closeModal }} class="btn secondary-btn ml-4">CANCEL</button>
   </div>
 </form>
