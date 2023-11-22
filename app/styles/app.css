@@ -110,6 +110,30 @@ label {
   color: #0c1523;
 }
 
-.pointer-cursor{
+.pointer-cursor {
   cursor: pointer;
 }
+
+.dataTables_info{
+  color: #0c1523 !important;
+}
+.paginate_button.current{
+  border: none !important;
+  background-color: rgb(192, 192, 192) !important;
+  color: #0c1523 !important;
+}
+
+.dataTables_wrapper .dataTables_paginate {
+  background: none;
+  color: #0c1523 !important;
+  border-radius: 4px;
+}
+ 
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+  background: none !important;
+  background-color:  rgb(192, 192, 192) !important;
+  color: #0c1523 !important;
+  border-radius: 4px;
+  border-color: rgb(192, 192, 192) !important;
+}
+ 

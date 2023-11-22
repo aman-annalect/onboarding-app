@@ -39,6 +39,6 @@
   </div>
   <div class="d-flex justify-content-center mt-4">
     <button type="submit" class="btn primary-btn mr-3">{{if this.editProduct 'Edit Product' 'Add'}}</button>
-    <button {{on "click" @closeModal }} class="btn secondary-btn ml-4">CANCEL</button>
+    <button class="btn secondary-btn ml-4" type="submit" {{on "click" @closeModal }}>CANCEL</button>
   </div>
 </form>

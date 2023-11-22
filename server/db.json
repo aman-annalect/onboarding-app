@@ -116,6 +116,7 @@
       "brand": "da",
       "stock": "3",
       "price": "3",
+      "lastOrderDate": "20/10/2023",
       "supplier": "as",
       "rating": "1",
       "id": 11
@@ -126,6 +127,7 @@
       "brand": "das",
       "stock": "24",
       "price": "23",
+      "lastOrderDate": "20/10/2023",
       "supplier": "das",
       "rating": "1",
       "id": 12
@@ -135,6 +137,7 @@
       "category": "Laptops",
       "brand": "das",
       "stock": "3",
+      "lastOrderDate": "20/10/2023",
       "price": "3",
       "supplier": "da",
       "rating": "1",
@@ -146,6 +149,7 @@
       "brand": "as",
       "stock": "3",
       "price": "3",
+      "lastOrderDate": "20/10/2023",
       "supplier": "a",
       "rating": "1",
       "id": 14
@@ -155,10 +159,23 @@
       "category": "Laptops",
       "brand": "a",
       "stock": "33",
+      "lastOrderDate": "20/10/2023",
       "price": "3",
       "supplier": "a",
       "rating": "0.5",
       "id": 15
+    },
+    {
+      "product": "das",
+      "category": "Laptops",
+      "brand": "23",
+      "stock": "231",
+      "price": "23",
+      "supplier": "asd",
+      "rating": "0.5",
+      "productId": null,
+      "lastOrderDate": "20/10/2023",
+      "id": 16
     }
   ]
 }
